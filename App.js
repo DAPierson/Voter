@@ -9,12 +9,14 @@ import {
   Text,
 } from 'react-native';
 import {StackNavigator} from 'react-navigation';
-import HomeScreen from './components/screens/HomeScreen';
-import ProjectDetailScreen from './components/screens/ProjectDetailScreen'
+import ProjectScreen from './components/screens/ProjectScreen';
+import ProjectTabScreen from './components/screens/ProjectTabScreen';
+import PredScreen from './components/screens/PredScreen';
 
 const RootNavigator= StackNavigator({
-  Home: {screen: HomeScreen},
-  ProjectDetail: {screen: ProjectDetailScreen}
+  Home: {screen: PredScreen},
+  Projects: {screen: ProjectScreen},
+  ProjectTab: {screen: ProjectTabScreen}
 },{ initialRouteName: 'Home'
 });
 
