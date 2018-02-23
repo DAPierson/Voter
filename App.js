@@ -1,13 +1,7 @@
 
 
 import React, { Component } from 'react';
-import {
-  ScrollView,
-  StyleSheet,
-  View,
-  Image,
-  Text,
-} from 'react-native';
+
 import {StackNavigator} from 'react-navigation';
 import ProjectScreen from './components/screens/ProjectScreen';
 import ProjectTabScreen from './components/screens/ProjectTabScreen';

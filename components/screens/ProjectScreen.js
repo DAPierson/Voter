@@ -47,8 +47,6 @@ export default class ProjectScreen extends Component {
                                                 Navigate={() => { this.navigate(project) }} />)
                                 })}
                         </ScrollView>
-
-
                 )
         }
 };

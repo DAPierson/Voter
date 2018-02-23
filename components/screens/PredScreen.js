@@ -7,8 +7,6 @@ import {
 } from 'react-native';
 import {Button} from 'react-native-elements';
 
-
-
 export default class PredScreen extends Component {
   static navigationOptions = { headerStyle:{ position: 'absolute', backgroundColor: 'transparent', zIndex: 100, top: 0, left: 0, right: 0 } };
   constructor(props) {
